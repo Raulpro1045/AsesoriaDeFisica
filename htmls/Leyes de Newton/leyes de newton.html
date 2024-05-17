@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Leyes de Newton</title>
+	<link rel="stylesheet" type="text/css" href="../../mods/boton.css">			<!--CAMBIAR><!-->
+	<link rel="stylesheet" type="text/css" href="../../mods/body.css">			<!--CAMBIAR><!-->
+	<link rel="stylesheet" type="text/css" href="../../mods/tabla.css">
+	<style type="text/css">
+		.footerCont{
+			display: flex;
+		}
+
+		footer{
+			margin-right: auto;
+			margin-left: auto;
+			align-self: end;
+		}
+
+		.boton{
+			margin-top: 10vh;
+		}
+	</style>
+</head>
+<body>
+<center>
+
+<div id="TITULO">
+	<h1>Leyes de Newton</h1>
+</div>
+
+<div class="imgCont">
+	<img src="src/imgs/newton.gif" alt="imagen">
+</div>
+
+<div class="textCont">
+	<p>
+		<strong>Cabe aclarar que aún no comprendo al 100% este tema</strong>
+	</p>
+
+	<p>
+		Estas formulas nos ayudan a calcular distintos datos, como el peso de un cuerpo si existe cierta gravedad
+	</p>
+
+	<p>
+		Esos son los datos que existen en este tema:
+		<table border="5" cellpadding="10" style="text-align: center;">
+			<tr>
+				<td>Simbologia</td>
+				<td>Significado</td>
+				<td>Representación</td>
+			</tr>
+			<tr>
+				<td>g</td>
+				<td>gravedad</td>
+				<td>m/s^2</td>
+			</tr>
+			<tr>
+				<td>m</td>
+				<td>masa</td>
+				<td>kg</td>
+			</tr>
+			<tr>
+				<td>w</td>
+				<td>peso</td>
+				<td>N</td>
+			</tr>
+			<tr>
+				<td>F</td>
+				<td>fuerza</td>
+				<td>N</td>
+			</tr>
+			<tr>
+				<td>FR</td>
+				<td>Fuerza resultante</td>
+				<td>N</td>
+			</tr>
+		</table>
+	</p>
+
+	<p>
+		Puede que confundas lo que significa peso y masa aveces. Peso es la fuerza con la que eres atraido a un cuerpo con gravedad. La masa se mide en kg, y siempre sera el mismo en cualquier parte del universo (ej: si tengo una <strong>masa</strong> de 92kg en la Luna, cuanto es mi masa en la Tierra? y en Jupiter? en ambos la respuesta es 92kg)
+	</p>
+
+	<p>
+		Formulas:
+		<table border="5" cellpadding="10" style="text-align: center;">
+			<tr>
+				<td colspan="3">
+					g = w/m
+				</td>
+			</tr>
+			<tr>
+				<td>
+					m = F/a
+				</td>
+				<td>
+					m = w/g
+				</td>
+				<td>
+					m = FR/a
+				</td>
+			</tr>
+			<tr>
+				<td>
+					a = F/m
+				</td>
+				<td>
+					a = FR/m
+				</td>
+				<td>
+					a = (Vf - Vo)/t
+				</td>
+			</tr>
+		</table>
+	</p>
+
+	<p>
+		Cuándo debo usar cada formula? <br>
+		Puede que sea confuso al principio, sin embargo es bastante sencillo de entender. <br> 
+		Usa <strong>m=F/a o m=FR/a</strong> cuando se te pida masa y se te de una aceleración. <br>
+		Usa <strong>m=w/g</strong> cuando se te pida la masa y se te de una gravedad. <br>
+
+		Ejemplos de lo anterior: <br><br>
+		m=F/a <br>
+		Determina la masa si a un cuerpo cambia de su estado de reposo (es decir Vo = 0) a una velocidad de 50 m/s en un tiempo de 4 segundos (primero tienes que calcular aceleración) y se sabe que recibio un esfuerzo de 30N. <br><br>
+
+		m=w/g <br>
+		Si tengo un peso de 120N en la Tierra, cuanto es mi peso en la luna? (primero se calcula la masa, el peso es 120 y la gravedad 9.8 porque estamos en la Tierra, después se calcula el peso despejando la w de la formula)
+	</p>
+
+<hr>
+
+	<p>
+		Ejercicios: <br>
+
+		1- Un cuerpo en reposo recibe un esfuerzo de 100N, logrando que su velocidad cambie a 16 m/s en un tiempo de 2 segundos. Determina su masa, peso en la luna y aceleracion. <br> Respuesta: <content class="botonChiquito">m = 12.5kg. w = 20.875N. a = 8m/s^2.</content> <br><br>
+
+		2- Un cuerpo tiene un peso de 200N en Jupiter. Determina la masa, masa en la Tierra y masa en la Luna. <br> Respuesta: <content class="botonChiquito">m = 8.06kg. m = 8.06kg. m = 8.06kg</content> <br><br>
+
+		3- Un cuerpo tiene un peso de 500N en la Tierra. Determina la masa, peso en Jupiter y peso en la Luna. <br> Respuesta: <content class="botonChiquito">m = 51.02kg. w = 1264.78N. w = 85.20N</content> <br><br>
+	</p>
+	</p>
+</div>
+
+<footer>
+<a href="../../index.html" class="boton">Volver</a>								<!--CAMBIAR><!-->
+</footer>
+
+</center>
+</body>
+</html>
